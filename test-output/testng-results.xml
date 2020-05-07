@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21436" started-at="2020-05-07T09:13:09Z" finished-at="2020-05-07T09:13:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21436" started-at="2020-05-07T09:13:09Z" finished-at="2020-05-07T09:13:30Z">
+      <class name="com.zomato.Test.GetResturant">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="setup" is-config="true" duration-ms="2438" started-at="2020-05-07T14:43:09Z" finished-at="2020-05-07T14:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getCategories()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="getCategories" duration-ms="8364" started-at="2020-05-07T14:43:11Z" finished-at="2020-05-07T14:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCategories -->
+        <test-method status="PASS" signature="GetCityID()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="GetCityID" duration-ms="1972" started-at="2020-05-07T14:43:20Z" depends-on-methods="com.zomato.Test.GetResturant.getCategories" finished-at="2020-05-07T14:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCityID -->
+        <test-method status="PASS" signature="getCityCuisines()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="getCityCuisines" duration-ms="2228" started-at="2020-05-07T14:43:22Z" depends-on-methods="com.zomato.Test.GetResturant.GetCityID" finished-at="2020-05-07T14:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCityCuisines -->
+        <test-method status="PASS" signature="getEstablishments()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="getEstablishments" duration-ms="2426" started-at="2020-05-07T14:43:24Z" depends-on-methods="com.zomato.Test.GetResturant.getCityCuisines" finished-at="2020-05-07T14:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEstablishments -->
+        <test-method status="PASS" signature="getResturantID()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="getResturantID" duration-ms="1997" started-at="2020-05-07T14:43:26Z" depends-on-methods="com.zomato.Test.GetResturant.getEstablishments" finished-at="2020-05-07T14:43:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResturantID -->
+        <test-method status="PASS" signature="getReviewsAndTakeDesicionGoOrNoGo()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="getReviewsAndTakeDesicionGoOrNoGo" duration-ms="1925" started-at="2020-05-07T14:43:28Z" depends-on-methods="com.zomato.Test.GetResturant.getResturantID" finished-at="2020-05-07T14:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReviewsAndTakeDesicionGoOrNoGo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zomato.Test.GetResturant@4cdbe50f]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-07T14:43:30Z" finished-at="2020-05-07T14:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zomato.Test.GetResturant -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

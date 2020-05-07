@@ -1,0 +1,7 @@
+<suite name="GetResturant_Suite"> verbose="1">
+	<test name="GetResturant">
+		<classes>
+			<class name="com.zomato.Test.GetResturant"/>
+		</classes>
+	</test>
+</suite>
