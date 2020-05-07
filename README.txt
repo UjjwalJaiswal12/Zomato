@@ -18,6 +18,15 @@ Rest assured,json-path,testng,java-hamcrest
 
 //////////////////////////////////////////////
 Support
+Get Categories
+Get CityID
+Get CityCuisines
+Get Establishments
+Get ResturantID
+Checks the rating
+Then take the descision Go or NoGo
+
+
  
 
 //////////////////////////////////////////////
